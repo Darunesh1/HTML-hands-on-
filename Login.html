@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            #login-form{
+                border: 1px solid black;
+            }
+            body{
+                background-color: lightcyan;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <h3>Registration</h3>
+            <form id="login-form">
+                <br>
+                <label for="fname">Name:</label>
+                <input type="text" id="fname" name="fname">
+                <br><br>
+                <label for="passord">Password:</label>
+                <input type="text" id="password" name="password">
+                <br><br>
+                <label for="course">Course:</label>
+                <select name="course" id="course">
+                    <option value="Computer">COMPUTER</option>
+                    <option value="electronics">ELECTRONICS</option>
+                    <option value="fashion design">FASHION DESIGN</option>
+                </select>
+                <br><br>
+                <label for="address">Address:</label>
+                <textarea name="address" id="address" cols="30" rows="10"></textarea>
+                <br><br>
+                <label for="countries">Country:</label>
+                <input list="countries">
+                <datalist id="countries">
+                    <option value="INDIA">
+                    <option value="SRILANKA">
+                    <option value="NEPAL">
+                </datalist>
+                <br><br>
+                <input type="submit">
+                <br><br>
+            </form>
+    </body>
+</html>
